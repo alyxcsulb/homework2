@@ -26,18 +26,15 @@ print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0:
 
 
 
-
 # Solution 2
 
 # F = 9 / 5 * C  + 32
-Cel = float(input("Enter a temperature in Celcius: "))
-F = ((9/5) * Cel) +32
-print('%.2f Cel is: %0.2f F' %(Cel, F))
-
-
-
+Celcius = float(input("Enter a temperature in Celcius: "))
+Farenheit = ((9/5) * Celcius) +32
+print('%.2f Celcius is: %0.2f Farenheit' %(Celcius, Farenheit))
 
 
 
 
 # Solution 3
+
