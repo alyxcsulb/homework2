@@ -1,4 +1,4 @@
-# task 1
+# Solution 1
 
 num0 = 0
 num1 = 1
@@ -27,10 +27,17 @@ print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0:
 
 
 
-# task 2
+# Solution 2
+
+# F = 9 / 5 * C  + 32
+Cel = float(input("Enter a temperature in Celcius: "))
+F = ((9/5) * Cel) +32
+print('%.2f Cel is: %0.2f F' %(Cel, F))
 
 
 
 
 
-# task 3
+
+
+# Solution 3
