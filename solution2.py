@@ -29,10 +29,20 @@ print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0:
 # Solution 2
 
 # F = 9 / 5 * C  + 32
-Celcius = float(input("Enter a temperature in Celcius: "))
-Farenheit = ((9/5) * Celcius) +32
-print(' \n %.2f Celcius is: %0.2f Farenheit \n' %(Celcius, Farenheit))
 
+cel1 = -40
+cel2 = 0
+cel3 = 40
+cel4 = 100
+far1 = int((9/5 * cel1) + 32)
+far2 = int((9/5 * cel2) + 32)
+far3 = int((9/5 * cel3) + 32)
+far4 = int((9/5 * cel4) + 32)
+
+print(cel1, " degrees in Celcius is ", far1, " degrees in Farenheit \n")
+print(cel2, " degrees in Celcius is ", far2, " degrees in Farenheit \n")
+print(cel3, " degrees in Celcius is ", far3, " degrees in Farenheit \n")
+print(cel4, " degrees in Celcius is ", far4, " degrees in Farenheit \n")
 
 
 
