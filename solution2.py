@@ -22,7 +22,7 @@ head1 = 'Number'
 head2 = 'Square'
 head3 = 'Cube'
 
-print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0: >20} \n {num1: >20} {sq1: >20} {cub1: >20} \n {num2: >20} {sq2: > 20} {cub2: >20} \n {num3: >20} {sq3: >20} {cub3: >20} \n {num4: >20} {sq4: >20} {cub4: >20} \n {num5: >20} {sq5: >20} {cub5: >20}')
+print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0: >20} \n {num1: >20} {sq1: >20} {cub1: >20} \n {num2: >20} {sq2: > 20} {cub2: >20} \n {num3: >20} {sq3: >20} {cub3: >20} \n {num4: >20} {sq4: >20} {cub4: >20} \n {num5: >20} {sq5: >20} {cub5: >20} \n')
 
 
 
@@ -31,10 +31,16 @@ print (f'{head1: >20} {head2: >20} {head3: >20} \n {num0: >20} {sq0: >20} {cub0:
 # F = 9 / 5 * C  + 32
 Celcius = float(input("Enter a temperature in Celcius: "))
 Farenheit = ((9/5) * Celcius) +32
-print('%.2f Celcius is: %0.2f Farenheit' %(Celcius, Farenheit))
+print(' \n %.2f Celcius is: %0.2f Farenheit \n' %(Celcius, Farenheit))
 
 
 
 
 # Solution 3
 
+
+x,y,z = [int(x) for x in (input("Enter three integers separated by a comma: ").split(','))]
+sum = (x + y + z)
+average = sum/ 3
+print(f' \n The average of the integers is: {average: ,.2f}. \n')
+print(f'The sum of the integers is: {sum: ,d}.')
